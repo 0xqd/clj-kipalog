@@ -6,5 +6,5 @@ init: deps
 .PHONY: init
 
 test:
-	lein autotest
+	lein test
 .PHONY: test
