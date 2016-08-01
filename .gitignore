@@ -1,0 +1,14 @@
+.nrepl-port
+target
+.lein-*
+*.log
+pom.xml
+resources/public/css/site.css
+backstop_data
+node_modules/
+classpath.txt
+resources/public/cljs
+resources/public/js/production/
+.DS_Store
+.idea/
+my-project.iml
