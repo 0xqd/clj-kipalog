@@ -6,7 +6,7 @@
    [byte-streams :as bs]
    [aleph.http :as http]))
 
-(def ^:const end-point "http://kipalog.com//api/v1")
+(def ^:const end-point "http://kipalog.com/api/v1")
 
 (defn make-path
   [x]
@@ -59,10 +59,10 @@
        {:headers {"X-Kipalog-Token" api-key}}))
 
 (defn preview-post
-  [api-key]
+  [api-key content]
   {:pre [(valid-api? api-key)]}
   (post "/post/preview"
-        {:content "**content of a post (markdown)**"}
+        {:content (str content)}
         {:headers {"X-Kipalog-Token" api-key}}))
 
 (defn post-by-tag
