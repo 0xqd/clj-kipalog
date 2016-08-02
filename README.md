@@ -4,7 +4,7 @@
 
 ## About
 
- [Official documentation](https://www.dropbox.com/developers/documentation/http)
+ [Official documentation](https://github.com/Kipalog/Kipalog-API-Doc)
 
 ## Example Usage
 
